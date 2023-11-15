@@ -1,0 +1,122 @@
+.uber-button {
+  background-color:rgb(0, 0, 0);
+  color: white;
+  border : none;
+  padding-left :15px;  /*using padding is better than using height and width*/
+  padding-right :15px;
+  padding-top :10px;
+  padding-bottom :10px;
+  cursor : pointer;
+  margin-right : 8px;
+  margin-bottom : 8px;
+  transition: opacity 0.15s;
+}
+.uber-button:hover{
+opacity: 0.5;
+}
+
+.Amazon-button {
+  background-color: rgb(255, 213, 0);
+  color :black;
+  border: none;
+  font-weight:bold ;
+  padding-left :35px;  /*using padding is better than using height and width*/
+  padding-right :35px;
+  padding-top :10px;
+  padding-bottom :10px;
+  border-radius : 18px;
+  cursor : pointer;
+  margin-right : 8px;
+  margin-bottom : 8px;
+  transition: background-color 0.15s;
+}
+.Amazon-button:hover{
+background-color:  rgb(245, 205, 4);
+}
+
+.github-button {
+  background-color: rgb(46,164,79);
+  color :white;
+  border: none;
+  padding-left :15px;  /*using padding is better than using height and width*/
+  padding-right :15px;
+  padding-top :10px;
+  padding-bottom :10px;
+  border-radius : 3px;
+  cursor : pointer;
+  margin-right : 8px;
+  margin-bottom : 8px;
+}
+.github-button:hover {
+box-shadow : 5px 5px 5px rgba(0,0,0,0.15);
+}
+
+.boot-button {
+  background-color: rgb(121, 82,179);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width : 105px;
+  height: 36px;
+  transition: opacity 0.15s;
+}
+.boot-button:hover{
+opacity: 0.5;
+}
+
+.strap-button {
+  background-color:white;
+  color : rgb(108,117,125);
+  border-color : rgb(108,117,125) ;
+  border-style :solid;
+  border-width: 1px;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  transition : color 0.15s,
+  background-color 0.15s;
+}
+.strap-button:hover {
+color:white;
+background-color: rgb(108,117,125);
+}
+
+.apply-button {
+background-color : rgb(10,102,194);
+color: white;
+font-size: 12px;
+font-weight:bold ;
+height : 26px;
+width: 175px;
+border: none;
+border-radius: 18px;
+margin-right: 8px;
+margin-bottom: 8px;
+transition: background-color 0.15s;
+}
+.apply-button:hover{
+background-color:  rgb(3, 71, 138);
+}
+
+.save-button {
+background-color : white;
+color: rgb(10,102,194);
+font-weight:bold ;
+border-color:rgb(10,102,194);
+border-width: 1px;
+height : 26px;
+width: 75px;
+border-radius: 13px;
+margin-right: 8px;
+margin-bottom: 8px;
+transition : border-width 0.15s,
+background-color 0.15s;
+}
+.save-button:hover {
+border-width: 2px;
+background-color:rgb(143, 198, 252); 
+}
