@@ -1,0 +1,82 @@
+.buttons{
+  width:50px;
+  height:30px;
+
+}
+
+.text {
+  color : rgb(38, 6, 126);
+  display: inline;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.Stretch{
+  background-color: green;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 8px;
+  transition: padding-left 0.15s,
+  padding-right 0.15s,
+  padding-top 0.15s,
+  padding-bottom 0.15s;
+  
+}
+
+.Stretch:hover{
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.shadow{
+  background-color: green;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 8px;
+  transition : box-shadow 0.15s;
+}
+
+.shadow:active{
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+}
+
+.one{
+  background-color: green;
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 8px;
+  transition : box-shadow 0.15s;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: padding-left 0.15s,
+  padding-right 0.15s,
+  padding-top 0.15s,
+  padding-bottom 0.15s,
+  margin-left 0.15s,
+  margin-right 0.15s;
+}
+.one:hover{
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
